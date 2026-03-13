@@ -254,8 +254,8 @@ def loop():
       # print(f"% --- state {state}, h = {pose.tripBh:.4f}, t={pose.tripBtimePassed():.3f}")
         state = 16
     elif state == 16: # run 4 meeters forward
-      for _ in range(40):
-        DriveOneMeter()
+      for _ in range(4):  
+        driveOneMeter()
       state = 20
     elif state == 20: # image analysis
       imageAnalysis(images == 2)
