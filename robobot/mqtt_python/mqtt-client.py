@@ -252,6 +252,11 @@ def loop():
         service.send("robobot/cmd/ti","rc 0 0") # stop for images
         service.send("robobot/cmd/T0","servo 1 0 1000") # (servo forward faster)
       # print(f"% --- state {state}, h = {pose.tripBh:.4f}, t={pose.tripBtimePassed():.3f}")
+        state = 16
+    elif state == 16: # run 4 meeters forward
+      for _ in range(40):
+        DriveOneMeter()
+      state = 20
     elif state == 20: # image analysis
       imageAnalysis(images == 2)
       images += 1
