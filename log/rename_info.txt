@@ -1,0 +1,96 @@
+2026-02-02T22:01:43 CET
+Same hostname Oliver - all is fine.
+Test access to SSID DTUdevice
+no DTUdevice SSID found
+2026-02-03T10:08:02 CET
+Same hostname Oliver - all is fine.
+Test access to SSID DTUdevice
+We are not connected, trying to connect to DTUdevice
+2026-02-03T13:19:23 CET
+New name is Hugo - so rename host from Oliver
+Test access to SSID DTUdevice
+We are not connected, trying to connect to DTUdevice
+2026-02-03T13:54:34 CET
+Same hostname Hugo - all is fine.
+Test access to SSID DTUdevice
+We are not connected, trying to connect to DTUdevice
+2026-02-03T14:58:57 CET
+Same hostname Hugo - all is fine.
+Test access to SSID DTUdevice
+We are not connected, trying to connect to DTUdevice
+2026-02-03T15:40:07 CET
+Same hostname Hugo - all is fine.
+Test access to SSID DTUdevice
+We are not connected, trying to connect to DTUdevice
+2026-02-06T11:49:26 CET
+Same hostname Hugo - all is fine.
+Test access to SSID DTUdevice
+We are not connected, trying to connect to DTUdevice
+2026-02-06T15:39:02 CET
+Same hostname Hugo - all is fine.
+Test access to SSID DTUdevice
+We are not connected, trying to connect to DTUdevice
+Fri Feb  6 16:14:10 CET 2026
+Same hostname Hugo - all is fine.
+Test access to SSID DTUdevice
+We are not connected, trying to connect to DTUdevice
+Fri Feb  6 16:19:15 CET 2026
+Same hostname Hugo - all is fine.
+Test access to SSID DTUdevice
+We are not connected, trying to connect to DTUdevice
+Fri Feb 13 14:24:34 CET 2026
+Same hostname Hugo - all is fine.
+Test access to SSID DTUdevice
+We are not connected, trying to connect to DTUdevice
+Fri Feb 13 14:37:26 CET 2026
+Same hostname Hugo - all is fine.
+Test access to SSID DTUdevice
+We are not connected, trying to connect to DTUdevice
+Fri Feb 13 15:03:06 CET 2026
+Same hostname Hugo - all is fine.
+Test access to SSID DTUdevice
+We are not connected, trying to connect to DTUdevice
+Fri Feb 13 17:01:24 CET 2026
+Same hostname Hugo - all is fine.
+Test access to SSID DTUdevice
+We (Hugo) are connected to DTUdevice
+Fri Feb 27 15:03:10 CET 2026
+Same hostname Hugo - all is fine.
+Test access to SSID DTUdevice
+We (Hugo) are connected to DTUdevice
+Fri Feb 27 15:49:05 CET 2026
+Same hostname Hugo - all is fine.
+Test access to SSID DTUdevice
+We (Hugo) are connected to DTUdevice
+Fri Feb 27 17:55:04 CET 2026
+Same hostname Hugo - all is fine.
+Test access to SSID DTUdevice
+We (Hugo) are connected to DTUdevice
+Tue Mar  3 11:45:02 CET 2026
+Same hostname Hugo - all is fine.
+Test access to SSID DTUdevice
+We (Hugo) are connected to DTUdevice
+Tue Mar  3 12:03:36 CET 2026
+Same hostname Hugo - all is fine.
+Test access to SSID DTUdevice
+We are not connected, trying to connect to DTUdevice
+Tue Mar  3 13:33:49 CET 2026
+Same hostname Hugo - all is fine.
+Test access to SSID DTUdevice
+We (Hugo) are connected to DTUdevice
+Tue Mar  3 14:01:15 CET 2026
+Same hostname Hugo - all is fine.
+Test access to SSID DTUdevice
+We (Hugo) are connected to DTUdevice
+Tue Mar  3 14:27:43 CET 2026
+Same hostname Hugo - all is fine.
+Test access to SSID DTUdevice
+We (Hugo) are connected to DTUdevice
+Fri Mar  6 14:19:07 CET 2026
+Same hostname Hugo - all is fine.
+Test access to SSID DTUdevice
+We (Hugo) are connected to DTUdevice
+Fri Mar  6 17:08:14 CET 2026
+Same hostname Hugo - all is fine.
+Test access to SSID DTUdevice
+We are not connected, trying to connect to DTUdevice

@@ -1,0 +1,24 @@
+% Service logfile
+% 1 	Time (sec)
+% 2 	Message
+1770129621.6821 msg: # Mqtt data connection established
+1770129621.8842 msg: # Mqtt cmd connection established
+1770129621.8950 msg: Teensy connection just opened
+1770129609.2629 Setup finished OK=1
+1770129622.1931 msg: # SCurrent: subscribed to Teensy data
+1770129622.1931 msg: # SDistForce: subscribed to Teensy data
+1770129622.1931 msg: # SEdge: subscribed to Teensy data
+1770129622.1931 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770129622.1931 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770129622.1931 msg: # SRobot:: subscribed to HBT
+1770129622.1931 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770374634.8254 msg: 1770374634.8254 NTP time glitch of 244998.312 sec, maybe an NTP update
+
+1770374634.8368 msg: # SRobot:: subscribed to HBT
+1770374634.8368 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770374947.7437 Got power off from (to teensy 1) Teensy (battery)
+1770374947.7438 Shutdown: robobot/cmd/shutdown 1770374947.7437 Teensy (battery)
+1770374969.5578 msg: 1770374969.5578 NTP time glitch of 18.231 sec, maybe an NTP update
+
+1770374971.2665 msg: # STeensy: close USB
+1770374970.4861 All terminated; closing logfile

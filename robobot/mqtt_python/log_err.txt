@@ -1,0 +1,26 @@
+[ WARN:0@30.361] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 30032.474205 ms
+
+(mqtt-client:3844): GStreamer-CRITICAL **: 16:10:21.974: gst_caps_get_structure: assertion 'GST_IS_CAPS (caps)' failed
+
+(mqtt-client:3844): GStreamer-CRITICAL **: 16:10:21.974: gst_structure_get_int: assertion 'structure != NULL' failed
+[ WARN:0@76.541] global cap_gstreamer.cpp:1714 open OpenCV | GStreamer warning: cannot query video width/height
+
+(mqtt-client:3844): GStreamer-CRITICAL **: 16:10:21.974: gst_structure_get_fraction: assertion 'structure != NULL' failed
+[ WARN:0@76.541] global cap_gstreamer.cpp:1722 open OpenCV | GStreamer warning: cannot query video fps
+[ WARN:0@76.541] global cap_gstreamer.cpp:1777 open OpenCV | GStreamer warning: Cannot query video position: status=0, value=-1, duration=-1
+
+(mqtt-client:3844): GStreamer-CRITICAL **: 16:11:26.975: gst_sample_get_caps: assertion 'GST_IS_SAMPLE (sample)' failed
+[ERROR:1@141.541] global cap_gstreamer.cpp:934 retrieveVideoFrame GStreamer: gst_sample_get_caps() returns NULL
+[ WARN:1@141.541] global cap_gstreamer.cpp:1181 isPipelinePlaying OpenCV | GStreamer warning: unable to query pipeline state
+[tcp @ 0x16491df0] Connection to tcp://localhost:7123 failed: Connection refused
+[ WARN:0@1.048] global cap_gstreamer.cpp:2839 handleMessage OpenCV | GStreamer warning: Embedded video playback halted; module source reported: Internal data stream error.
+[ WARN:0@1.048] global cap_gstreamer.cpp:1698 open OpenCV | GStreamer warning: unable to start pipeline
+[ WARN:0@1.048] global cap_gstreamer.cpp:1173 isPipelinePlaying OpenCV | GStreamer warning: GStreamer: pipeline have not been created
+[tcp @ 0x31409df0] Connection to tcp://localhost:7123 failed: Connection refused
+[ WARN:0@5.149] global cap_gstreamer.cpp:2839 handleMessage OpenCV | GStreamer warning: Embedded video playback halted; module source reported: Internal data stream error.
+[ WARN:0@5.149] global cap_gstreamer.cpp:1698 open OpenCV | GStreamer warning: unable to start pipeline
+[ WARN:0@5.149] global cap_gstreamer.cpp:1173 isPipelinePlaying OpenCV | GStreamer warning: GStreamer: pipeline have not been created
+[tcp @ 0x2d0eddf0] Connection to tcp://localhost:7123 failed: Connection refused
+[ WARN:0@0.426] global cap_gstreamer.cpp:2839 handleMessage OpenCV | GStreamer warning: Embedded video playback halted; module source reported: Internal data stream error.
+[ WARN:0@0.426] global cap_gstreamer.cpp:1698 open OpenCV | GStreamer warning: unable to start pipeline
+[ WARN:0@0.426] global cap_gstreamer.cpp:1173 isPipelinePlaying OpenCV | GStreamer warning: GStreamer: pipeline have not been created

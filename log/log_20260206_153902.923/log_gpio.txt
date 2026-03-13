@@ -1,0 +1,21 @@
+% gpio logfile
+% pins_out 12=0 16=0
+% 1 	Time (sec)
+% 2 	Pin 13
+% Listening to start button (pin 13)
+1770389762.0613 1
+1770389762.1851 GPIO::called start script '/home/local/mission_start.bash'
+1770389762.1851 0
+1770389763.0891 1
+1770389763.1961 GPIO::called start script '/home/local/mission_start.bash'
+1770389763.1961 0
+1770390508.3378 1
+1770390508.4146 GPIO::called start script '/home/local/mission_start.bash'
+1770390508.4146 0
+1770390544.4732 1
+1770390544.5805 GPIO::called start script '/home/local/mission_start.bash'
+1770390544.5805 0
+1770390549.6562 1
+1770390550.3377 GPIO::called start script '/home/local/mission_start.bash'
+1770390550.3377 0
+% Gpio::run terminated

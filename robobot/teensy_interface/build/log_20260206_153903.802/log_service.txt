@@ -1,0 +1,328 @@
+% Service logfile
+% 1 	Time (sec)
+% 2 	Message
+1770388751.3412 msg: # Mqtt data connection established
+1770388751.5427 msg: # Mqtt cmd connection established
+1770388751.5535 msg: Teensy connection just opened
+1770388743.8029 Setup finished OK=1
+1770388751.8514 msg: # SCurrent: subscribed to Teensy data
+1770388751.8514 msg: # SDistForce: subscribed to Teensy data
+1770388751.8514 msg: # SEdge: subscribed to Teensy data
+1770388751.8514 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770388751.8514 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770388751.8514 msg: # SRobot:: subscribed to HBT
+1770388751.8514 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770389230.2978 msg: # SCurrent: subscribed to Teensy data
+1770389230.2978 msg: # SDistForce: subscribed to Teensy data
+1770389230.2979 msg: # SEdge: subscribed to Teensy data
+1770389230.2979 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770389230.2979 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770389230.2979 msg: # SRobot:: subscribed to HBT
+1770389230.2979 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770389231.9043 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770389232.5068 msg: # SRobot:: subscribed to HBT
+1770389232.9084 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770389233.3217 msg: 1770389233.3217 NTP time glitch of 463.625 sec, maybe an NTP update
+
+1770389431.9967 new Master: (0) 2026-02-06 15:50:31.979473
+1770389431.9967 Log command: robobot/cmd/ti log 1
+1770389432.7922 Mixer order: robobot/cmd/ti rc 0.25 0.0
+1770389434.8939 Mixer order: robobot/cmd/ti rc 0.1 0.5
+1770389438.1969 Mixer order: robobot/cmd/ti rc 0 0
+1770389442.7808 Mixer order: robobot/cmd/ti rc 0 0
+1770389442.8514 Mixer order: robobot/cmd/ti rc 0 0
+1770389442.8930 Log command: robobot/cmd/ti log 0
+1770388751.6500 Lost Master, alive since 2026-02-06 15:50:31.979473
+1770389763.1297 new Master: (0) 2026-02-06 15:56:03.114148
+1770389763.1736 Log command: robobot/cmd/ti log 1
+1770389763.7080 Mixer order: robobot/cmd/ti rc 0.25 0.0
+1770389765.8100 Mixer order: robobot/cmd/ti rc 0.1 0.5
+1770389769.1128 Mixer order: robobot/cmd/ti rc 0 0
+1770389773.1761 Mixer order: robobot/cmd/ti rc 0 0
+1770389773.2464 Mixer order: robobot/cmd/ti rc 0 0
+1770389773.2872 Log command: robobot/cmd/ti log 0
+1770388751.6500 Lost Master, alive since 2026-02-06 15:56:03.114148
+1770389885.7920 new Master: (0) 2026-02-06 15:58:05.776159
+1770389885.8336 Log command: robobot/cmd/ti log 1
+1770389886.1207 Mixer order: robobot/cmd/ti rc 0.2 0.5
+1770389892.6856 Mixer order: robobot/cmd/ti rc 0.0 0.0
+1770389893.9387 Mixer order: robobot/cmd/ti rc 0.0 0.0
+1770389894.0395 Mixer order: robobot/cmd/ti rc 0 0
+1770389894.1101 Mixer order: robobot/cmd/ti rc 0 0
+1770389894.1512 Log command: robobot/cmd/ti log 0
+1770388751.6500 Lost Master, alive since 2026-02-06 15:58:05.776159
+1770389959.8677 new Master: (0) 2026-02-06 15:59:19.844643
+1770389959.9096 Log command: robobot/cmd/ti log 1
+1770389998.0054 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770389998.2062 msg: # SRobot:: subscribed to HBT
+1770389999.0093 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770389999.6117 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770389999.8125 msg: # SEdge: subscribed to Teensy data
+1770390000.4149 msg: # SRobot:: subscribed to HBT
+1770388751.6500 Lost Master, alive since 2026-02-06 15:59:19.844643
+1770390001.2181 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390001.4189 msg: # SCurrent: subscribed to Teensy data
+1770390001.4189 msg: # SDistForce: subscribed to Teensy data
+1770390001.6198 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770390002.6238 msg: # SRobot:: subscribed to HBT
+1770390002.8246 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390003.4270 msg: # SEdge: subscribed to Teensy data
+1770390004.7783 new Master: (0) 2026-02-06 15:59:19.844643
+1770390004.7788 msg: 1770390004.7788 NTP time glitch of 8.421 sec, maybe an NTP update
+
+1770390004.8288 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770390035.6897 msg: 1770390035.6897 NTP time glitch of 8.825 sec, maybe an NTP update
+
+1770390035.6911 msg: # SCurrent: subscribed to Teensy data
+1770390035.6911 msg: # SDistForce: subscribed to Teensy data
+1770390035.6911 msg: # SEdge: subscribed to Teensy data
+1770390035.6911 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390035.6911 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770390035.6911 msg: # SRobot:: subscribed to HBT
+1770390035.6911 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770390042.5695 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390042.9711 msg: # SRobot:: subscribed to HBT
+1770390043.5735 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770390044.1761 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390044.5777 msg: # SEdge: subscribed to Teensy data
+1770388751.6500 Lost Master, alive since 2026-02-06 15:59:19.844643
+1770390045.1802 msg: # SRobot:: subscribed to HBT
+1770390045.7827 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390045.9836 msg: # SCurrent: subscribed to Teensy data
+1770390045.9836 msg: # SDistForce: subscribed to Teensy data
+1770390046.1844 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770390047.3893 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390047.3893 msg: # SRobot:: subscribed to HBT
+1770390047.3893 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770390053.8871 msg: # SCurrent: subscribed to Teensy data
+1770390053.8871 msg: # SDistForce: subscribed to Teensy data
+1770390053.8871 msg: # SEdge: subscribed to Teensy data
+1770390053.8872 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390053.8872 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770390053.8872 msg: # SRobot:: subscribed to HBT
+1770390053.8368 new Master: (0) 2026-02-06 15:59:19.844643
+1770390054.6955 msg: 1770390054.6955 NTP time glitch of 13.735 sec, maybe an NTP update
+
+1770390054.6981 Mixer order: robobot/cmd/ti rc 0.2 0.5
+1770390057.5159 Mixer order: robobot/cmd/ti rc 0.0 0.0
+1770390058.6699 Mixer order: robobot/cmd/ti rc 0.0 0.0
+1770390058.7707 Mixer order: robobot/cmd/ti rc 0 0
+1770390058.8413 Mixer order: robobot/cmd/ti rc 0 0
+1770390058.8826 Log command: robobot/cmd/ti log 0
+1770388751.6500 Lost Master, alive since 2026-02-06 15:59:19.844643
+1770390165.1387 new Master: (0) 2026-02-06 16:02:45.122268
+1770390165.1819 Log command: robobot/cmd/ti log 1
+1770390174.1725 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390174.5742 msg: # SRobot:: subscribed to HBT
+1770390175.1766 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770390175.7790 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390176.1807 msg: # SEdge: subscribed to Teensy data
+1770388751.6500 Lost Master, alive since 2026-02-06 16:02:45.122268
+1770390176.7832 msg: # SRobot:: subscribed to HBT
+1770390177.3855 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390177.7871 msg: # SCurrent: subscribed to Teensy data
+1770390177.7871 msg: # SDistForce: subscribed to Teensy data
+1770390184.2782 new Master: (0) 2026-02-06 16:02:45.122268
+1770390184.2783 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770390184.2783 msg: # SRobot:: subscribed to HBT
+1770390184.2783 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770390184.3295 msg: # SCurrent: subscribed to Teensy data
+1770390184.3295 msg: # SDistForce: subscribed to Teensy data
+1770390184.3295 msg: # SEdge: subscribed to Teensy data
+1770390184.3295 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390185.9358 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390186.5382 msg: # SRobot:: subscribed to HBT
+1770390186.9398 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770390187.5422 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390187.9438 msg: # SEdge: subscribed to Teensy data
+1770390188.7470 msg: # SRobot:: subscribed to HBT
+1770390189.1487 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390189.3495 msg: # SCurrent: subscribed to Teensy data
+1770390189.3495 msg: # SDistForce: subscribed to Teensy data
+1770390189.5503 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770390190.7553 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390190.9561 msg: # SRobot:: subscribed to HBT
+1770390191.4752 msg: 1770390191.4751 NTP time glitch of 18.864 sec, maybe an NTP update
+
+1770390197.7834 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390198.1849 msg: # SRobot:: subscribed to HBT
+1770390198.7873 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770390199.3896 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390199.7912 msg: # SEdge: subscribed to Teensy data
+1770388751.6500 Lost Master, alive since 2026-02-06 16:02:45.122268
+1770390200.3852 new Master: (0) 2026-02-06 16:02:45.122268
+1770390200.3854 msg: 1770390200.3854 NTP time glitch of 4.224 sec, maybe an NTP update
+
+1770390200.3937 msg: # SRobot:: subscribed to HBT
+1770388751.6500 Lost Master, alive since 2026-02-06 16:02:45.122268
+1770390204.6102 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770390219.5663 msg: # SCurrent: subscribed to Teensy data
+1770390219.5663 msg: # SDistForce: subscribed to Teensy data
+1770390219.5663 msg: # SEdge: subscribed to Teensy data
+1770390219.5663 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390219.5663 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770390219.5663 msg: # SRobot:: subscribed to HBT
+1770390219.5663 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770390221.2234 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390221.8258 msg: # SRobot:: subscribed to HBT
+1770390222.2274 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770390222.8297 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390223.2312 msg: # SEdge: subscribed to Teensy data
+1770390224.0344 msg: # SRobot:: subscribed to HBT
+1770390224.4360 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390224.6367 msg: # SCurrent: subscribed to Teensy data
+1770390224.6367 msg: # SDistForce: subscribed to Teensy data
+1770390224.8375 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770390226.0423 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390226.2432 msg: # SRobot:: subscribed to HBT
+1770390226.8456 msg: # SEdge: subscribed to Teensy data
+1770390227.4480 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770390227.6488 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390227.8650 msg: 1770390227.8650 NTP time glitch of 19.436 sec, maybe an NTP update
+
+1770390225.3752 Mixer order: robobot/cmd/ti rc 0 0
+1770390227.8651 Mixer order: robobot/cmd/ti rc 0 0
+1770390227.8652 Log command: robobot/cmd/ti log 0
+1770390238.1882 new Master: (0) 2026-02-06 16:03:58.167110
+1770390238.2299 Log command: robobot/cmd/ti log 1
+1770390273.7633 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390274.1650 msg: # SRobot:: subscribed to HBT
+1770390274.7674 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770390275.3698 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390275.5706 msg: # SEdge: subscribed to Teensy data
+1770388751.6500 Lost Master, alive since 2026-02-06 16:03:58.167110
+1770390276.3738 msg: # SRobot:: subscribed to HBT
+1770390276.9762 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390277.1771 msg: # SCurrent: subscribed to Teensy data
+1770390277.1771 msg: # SDistForce: subscribed to Teensy data
+1770390277.3779 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770390278.5827 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390278.5827 msg: # SRobot:: subscribed to HBT
+1770390278.5827 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770390279.1851 msg: # SEdge: subscribed to Teensy data
+1770390279.9883 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770390280.1892 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390285.2818 new Master: (0) 2026-02-06 16:03:58.167110
+1770390285.2818 msg: # SCurrent: subscribed to Teensy data
+1770390285.2818 msg: # SDistForce: subscribed to Teensy data
+1770390285.2819 msg: # SEdge: subscribed to Teensy data
+1770390285.2819 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390285.2819 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770390285.2819 msg: # SRobot:: subscribed to HBT
+1770390285.2820 msg: 1770390285.2820 NTP time glitch of 13.190 sec, maybe an NTP update
+
+1770390297.5830 msg: # SRobot:: subscribed to HBT
+1770390298.7874 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390299.1793 Mixer order: robobot/cmd/ti rc 0.2 0.5
+1770390299.7914 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770390299.7914 msg: # SRobot:: subscribed to HBT
+1770390300.3938 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390300.7955 msg: # SEdge: subscribed to Teensy data
+1770390302.0002 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390302.0002 msg: # SRobot:: subscribed to HBT
+1770390302.2010 msg: # SCurrent: subscribed to Teensy data
+1770390302.2010 msg: # SDistForce: subscribed to Teensy data
+1770390302.4018 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770390303.0041 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770390303.6066 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390304.2090 msg: # SRobot:: subscribed to HBT
+1770390304.4098 msg: # SEdge: subscribed to Teensy data
+1770390305.0121 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770390305.2129 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390306.4177 msg: # SRobot:: subscribed to HBT
+1770390306.8193 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390307.2209 msg: # SCurrent: subscribed to Teensy data
+1770390307.2209 msg: # SDistForce: subscribed to Teensy data
+1770390307.2813 msg: 1770390307.2813 NTP time glitch of 10.154 sec, maybe an NTP update
+
+1770390314.2119 Mixer order: robobot/cmd/ti rc 0.0 0.0
+1770388751.6500 Lost Master, alive since 2026-02-06 16:03:58.167110
+1770390324.6020 msg: 1770390324.6020 NTP time glitch of 15.868 sec, maybe an NTP update
+
+1770390324.6024 msg: # SCurrent: subscribed to Teensy data
+1770390324.6024 msg: # SDistForce: subscribed to Teensy data
+1770390324.6024 msg: # SEdge: subscribed to Teensy data
+1770390324.6024 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390324.6024 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770390324.6025 msg: # SRobot:: subscribed to HBT
+1770390324.6025 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770390325.1029 new Master: (0) 2026-02-06 16:03:58.167110
+1770390325.4819 Mixer order: robobot/cmd/ti rc 0.0 0.0
+1770390325.5827 Mixer order: robobot/cmd/ti rc 0 0
+1770390325.6531 Mixer order: robobot/cmd/ti rc 0 0
+1770390325.6941 Log command: robobot/cmd/ti log 0
+1770388751.6500 Lost Master, alive since 2026-02-06 16:03:58.167110
+1770390444.1283 new Master: (0) 2026-02-06 16:07:24.111781
+1770390444.1736 Log command: robobot/cmd/ti log 1
+1770388751.6500 Lost Master, alive since 2026-02-06 16:07:24.111781
+1770390470.7645 msg: 1770390470.7645 NTP time glitch of 11.243 sec, maybe an NTP update
+
+1770390470.7645 new Master: (0) 2026-02-06 16:07:24.111781
+1770390470.7651 msg: # SCurrent: subscribed to Teensy data
+1770390470.7651 msg: # SDistForce: subscribed to Teensy data
+1770390470.7651 msg: # SEdge: subscribed to Teensy data
+1770390470.7651 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390470.7651 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770390470.7651 msg: # SRobot:: subscribed to HBT
+1770390470.7651 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770388751.6500 Lost Master, alive since 2026-02-06 16:07:24.111781
+1770390484.1276 msg: 1770390484.1276 NTP time glitch of 8.298 sec, maybe an NTP update
+
+1770390484.1279 new Master: (0) 2026-02-06 16:07:24.111781
+1770390484.1281 msg: # SCurrent: subscribed to Teensy data
+1770390484.1281 msg: # SDistForce: subscribed to Teensy data
+1770390484.1281 msg: # SEdge: subscribed to Teensy data
+1770390484.1281 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390484.1282 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770390484.1282 msg: # SRobot:: subscribed to HBT
+1770390484.1282 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770390504.6659 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390505.0676 msg: # SRobot:: subscribed to HBT
+1770390506.8971 msg: # SEdge: subscribed to Teensy data
+1770390506.8971 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390506.8971 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770390506.8976 msg: 1770390506.8976 NTP time glitch of 3.873 sec, maybe an NTP update
+
+1770390506.8991 Mixer order: robobot/cmd/ti rc 0.25 0.0
+1770390508.3408 Mixer order: robobot/cmd/ti rc 0 0
+1770390508.4111 Mixer order: robobot/cmd/ti rc 0 0
+1770390508.4521 Log command: robobot/cmd/ti log 0
+1770390510.7636 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770390511.9683 msg: # SCurrent: subscribed to Teensy data
+1770390511.9683 msg: # SDistForce: subscribed to Teensy data
+1770388751.6500 Lost Master, alive since 2026-02-06 16:07:24.111781
+1770390545.5220 new Master: (0) 2026-02-06 16:09:05.505484
+1770390545.5656 Log command: robobot/cmd/ti log 1
+1770388751.6500 Lost Master, alive since 2026-02-06 16:09:05.505484
+1770390598.0194 new Master: (0) 2026-02-06 16:09:05.505484
+1770390598.0201 msg: 1770390598.0201 NTP time glitch of 25.735 sec, maybe an NTP update
+
+1770390598.0201 msg: # SCurrent: subscribed to Teensy data
+1770390598.0201 msg: # SDistForce: subscribed to Teensy data
+1770390598.0201 msg: # SEdge: subscribed to Teensy data
+1770390598.0202 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390598.0202 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770390598.0202 msg: # SRobot:: subscribed to HBT
+1770390598.0202 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770390600.6811 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390601.2835 msg: # SRobot:: subscribed to HBT
+1770390601.6850 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770390602.2874 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770390602.6889 msg: # SEdge: subscribed to Teensy data
+1770388751.6500 Lost Master, alive since 2026-02-06 16:09:05.505484
+1770390615.4896 msg: 1770390615.4896 NTP time glitch of 16.415 sec, maybe an NTP update
+
+1770390615.4897 new Master: (0) 2026-02-06 16:09:05.505484
+1770390615.5400 msg: # SRobot:: subscribed to HBT
+1770390615.5400 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770390620.5604 msg: # SCurrent: subscribed to Teensy data
+1770390620.5604 msg: # SDistForce: subscribed to Teensy data
+1770390622.0163 Mixer order: robobot/cmd/ti rc 0.25 0.0
+1770390624.1180 Mixer order: robobot/cmd/ti rc 0.1 0.5
+1770390628.0210 Mixer order: robobot/cmd/ti rc 0 0
+1770390629.2273 Mixer order: robobot/cmd/ti rc 0 0
+1770390629.2977 Mixer order: robobot/cmd/ti rc 0 0
+1770390629.3385 Log command: robobot/cmd/ti log 0
+1770388751.6500 Lost Master, alive since 2026-02-06 16:09:05.505484
+1770391040.1579 Got power off from (to teensy 1) Teensy (battery)
+1770391040.1581 Shutdown: robobot/cmd/shutdown 1770391040.1579 Teensy (battery)

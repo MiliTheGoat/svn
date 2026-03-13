@@ -1,0 +1,28 @@
+% Service logfile
+% 1 	Time (sec)
+% 2 	Message
+1772542885.6574 msg: # Mqtt data connection established
+1772542885.8603 msg: # Mqtt cmd connection established
+1772542885.8712 msg: Teensy connection just opened
+1772542878.1211 Setup finished OK=1
+1772542886.1702 msg: # SCurrent: subscribed to Teensy data
+1772542886.1702 msg: # SDistForce: subscribed to Teensy data
+1772542886.1702 msg: # SEdge: subscribed to Teensy data
+1772542886.1702 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1772542886.1702 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1772542886.1702 msg: # SRobot:: subscribed to HBT
+1772542886.1702 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1772543153.0089 msg: # SCurrent: subscribed to Teensy data
+1772543153.0089 msg: # SDistForce: subscribed to Teensy data
+1772543153.0089 msg: # SEdge: subscribed to Teensy data
+1772543153.0089 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1772543153.0089 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1772543153.0089 msg: # SRobot:: subscribed to HBT
+1772543153.0089 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1772543154.6247 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1772543154.9281 msg: 1772543154.9281 NTP time glitch of 252.386 sec, maybe an NTP update
+
+1772544426.2648 new Master: (0) 2026-03-03 14:27:06.248570
+1772544426.2648 Log command: robobot/cmd/ti log 1
+1772544429.3745 Mixer order: robobot/cmd/ti rc 0 0
+1772544429.4153 Log command: robobot/cmd/ti log 0

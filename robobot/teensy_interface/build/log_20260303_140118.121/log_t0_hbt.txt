@@ -1,0 +1,17 @@
+% Heartbeat logfile
+% 1 	Time (sec)
+% 2 	Robot name index
+% 3 	Version
+% 4 	State (0 = control is external to Teensy)
+% 5 	Battery voltage (V)
+% 6 	Teensy load (%)
+% 7 	Board supply current (A)
+% 8 	Used battery capacity (Wh) (never reset properly)
+% 9 	Shutdown request.
+% 10 	CPU temperature (Raspberry).
+1772544426.6145 118 1033 4 15.61 8.9 0.36 269.867 0 48.0
+1772544427.1142 118 1033 4 15.62 8.9 0.37 269.868 0 48.0
+1772544427.6136 118 1033 4 15.61 8.9 0.36 269.868 0 48.0
+1772544428.1144 118 1033 4 15.62 8.9 0.33 269.869 0 48.0
+1772544428.6139 118 1033 4 15.61 8.9 0.34 269.870 0 48.0
+1772544429.1144 118 1033 4 15.61 9.0 0.34 269.871 0 48.0

@@ -1,0 +1,620 @@
+% mqtt logfile, enabled=true
+% broker=tcp://localhost:1883
+% context=drive
+% client id=tif_cmd
+% system=robobot/ (top level ID)
+% function=cmd/ (next level name)
+% 1 	Time (sec)
+% 2 	Quality of service 0=max once, 1=at least once, 2=once, S=subscribe
+% 3 	'Topic'
+% 4 	Message / payload
+1770991814.0841 0 drive robobot/cmd/ti log 1
+1770991814.2642 0 drive robobot/cmd/T0 enc0
+1770991814.3049 0 drive robobot/cmd/T0 confw 0.074 0.074 19 92 0.23
+1770991814.3049 0 drive robobot/cmd/T0 confi
+1770991814.4587 0 'robobot/teensy_interface/alive' 1770991814.4587 2026-02-13 15:10:14.458
+1770991814.5845 0 drive robobot/cmd/ti alive 2026-02-13 15:10:14.067312
+1770991815.0857 0 drive robobot/cmd/ti alive 2026-02-13 15:10:14.067312
+1770991815.5867 0 drive robobot/cmd/ti alive 2026-02-13 15:10:14.067312
+1770991816.0879 0 drive robobot/cmd/ti alive 2026-02-13 15:10:14.067312
+1770991816.4669 0 'robobot/teensy_interface/alive' 1770991816.4668 2026-02-13 15:10:16.466
+1770991816.5891 0 drive robobot/cmd/ti alive 2026-02-13 15:10:14.067312
+1770991817.0902 0 drive robobot/cmd/ti alive 2026-02-13 15:10:14.067312
+1770991818.4749 0 'robobot/teensy_interface/alive' 1770991818.4748 2026-02-13 15:10:18.474
+1770991817.5914 0 drive robobot/cmd/ti alive 2026-02-13 15:10:14.067312
+1770991818.8264 0 drive robobot/cmd/ti alive 2026-02-13 15:10:14.067312
+1770991818.8265 0 drive robobot/cmd/ti alive 2026-02-13 15:10:14.067312
+1770991819.0946 0 drive robobot/cmd/ti alive 2026-02-13 15:10:14.067312
+1770991819.1861 0 drive robobot/cmd/T0 lip 1
+1770991819.1864 0 drive robobot/cmd/T0 sub livn 10
+1770991819.2067 0 drive robobot/cmd/T0 liwi
+1770991819.2270 0 drive robobot/cmd/T0 leds 16 30 30 0
+1770991819.2273 0 drive robobot/cmd/T0 leds 16 0 0 30
+1770991819.2273 0 drive robobot/cmd/ti rc 0.25 0.0
+1770991819.2274 0 drive robobot/cmd/T0 servo 1 100 300
+1770991819.5957 0 drive robobot/cmd/ti alive 2026-02-13 15:10:14.067312
+1770991820.0967 0 drive robobot/cmd/ti alive 2026-02-13 15:10:14.067312
+1770991820.4834 0 'robobot/teensy_interface/alive' 1770991820.4834 2026-02-13 15:10:20.483
+1770991820.5977 0 drive robobot/cmd/ti alive 2026-02-13 15:10:14.067312
+1770991821.0989 0 drive robobot/cmd/ti alive 2026-02-13 15:10:14.067312
+1770991821.3290 0 drive robobot/cmd/ti rc 0.1 0.5
+1770991821.3291 0 drive robobot/cmd/T0 servo 1 -800 1000
+1770991821.6002 0 drive robobot/cmd/ti alive 2026-02-13 15:10:14.067312
+1770991822.1012 0 drive robobot/cmd/ti alive 2026-02-13 15:10:14.067312
+1770991822.4915 0 'robobot/teensy_interface/alive' 1770991822.4915 2026-02-13 15:10:22.491
+1770991822.6022 0 drive robobot/cmd/ti alive 2026-02-13 15:10:14.067312
+1770991823.1033 0 drive robobot/cmd/ti alive 2026-02-13 15:10:14.067312
+1770991823.6044 0 drive robobot/cmd/ti alive 2026-02-13 15:10:14.067312
+1770991824.1054 0 drive robobot/cmd/ti alive 2026-02-13 15:10:14.067312
+1770991824.4999 0 'robobot/teensy_interface/alive' 1770991824.4998 2026-02-13 15:10:24.499
+1770991824.5320 0 drive robobot/cmd/ti rc 0 0
+1770991824.5321 0 drive robobot/cmd/T0 servo 1 0 1000
+1770991824.6064 0 drive robobot/cmd/ti alive 2026-02-13 15:10:14.067312
+1770991824.6323 0 drive robobot/cmd/T0 leds 16 0 64 0
+1770991824.7325 0 drive robobot/cmd/T0 leds 16 0 30 30
+1770991824.8328 0 drive robobot/cmd/T0 leds 16 0 64 0
+1770991824.9331 0 drive robobot/cmd/T0 leds 16 0 30 30
+1770991825.0333 0 drive robobot/cmd/T0 leds 16 0 64 0
+1770991825.1076 0 drive robobot/cmd/ti alive 2026-02-13 15:10:14.067312
+1770991825.1336 0 drive robobot/cmd/T0 leds 16 0 30 30
+1770991825.2339 0 drive robobot/cmd/T0 leds 16 0 64 0
+1770991825.3341 0 drive robobot/cmd/T0 leds 16 0 30 30
+1770991825.4344 0 drive robobot/cmd/T0 leds 16 0 64 0
+1770991825.5347 0 drive robobot/cmd/T0 leds 16 0 30 30
+1770991825.6086 0 drive robobot/cmd/ti alive 2026-02-13 15:10:14.067312
+1770991825.6351 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770991825.6352 0 drive robobot/cmd/ti rc 0 0
+1770991825.6352 0 drive robobot/cmd/T0 servo 1 0 0
+1770991825.7068 0 drive robobot/cmd/ti rc 0 0
+1770991825.7271 0 drive robobot/cmd/T0 stop
+1770991825.7272 0 drive robobot/cmd/T0 leds 14 0 0 0
+1770991825.7373 0 drive robobot/cmd/T0 leds 15 0 0 0
+1770991825.7374 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770991878.4209 0 drive robobot/cmd/ti log 1
+1770991878.7155 0 'robobot/teensy_interface/alive' 1770991878.7155 2026-02-13 15:11:18.715
+1770991878.7703 0 drive robobot/cmd/T0 enc0
+1770991878.7704 0 drive robobot/cmd/T0 confw 0.074 0.074 19 92 0.23
+1770991878.7706 0 drive robobot/cmd/T0 confi
+1770991878.8796 0 drive robobot/cmd/ti alive 2026-02-13 15:11:18.362391
+1770991878.8982 0 drive robobot/cmd/T0 lip 1
+1770991878.8984 0 drive robobot/cmd/T0 sub livn 10
+1770991878.9186 0 drive robobot/cmd/T0 liwi
+1770991878.9389 0 drive robobot/cmd/T0 leds 16 30 30 0
+1770991878.9392 0 drive robobot/cmd/T0 leds 16 0 100 0
+1770991878.9394 0 drive robobot/cmd/ti rc 0.2 0.0
+1770991878.9396 0 drive robobot/cmd/T0 servo 1 -800 300
+1770991879.3806 0 drive robobot/cmd/ti alive 2026-02-13 15:11:18.362391
+1770991879.8816 0 drive robobot/cmd/ti alive 2026-02-13 15:11:18.362391
+1770991880.3826 0 drive robobot/cmd/ti alive 2026-02-13 15:11:18.362391
+1770991880.7235 0 'robobot/teensy_interface/alive' 1770991880.7235 2026-02-13 15:11:20.723
+1770991880.8837 0 drive robobot/cmd/ti alive 2026-02-13 15:11:18.362391
+1770991881.5053 0 drive robobot/cmd/ti alive 2026-02-13 15:11:18.362391
+1770991881.8856 0 drive robobot/cmd/ti alive 2026-02-13 15:11:18.362391
+1770991882.3866 0 drive robobot/cmd/ti alive 2026-02-13 15:11:18.362391
+1770991882.7314 0 'robobot/teensy_interface/alive' 1770991882.7314 2026-02-13 15:11:22.731
+1770991882.8878 0 drive robobot/cmd/ti alive 2026-02-13 15:11:18.362391
+1770991883.3894 0 drive robobot/cmd/ti alive 2026-02-13 15:11:18.362391
+1770991883.8906 0 drive robobot/cmd/ti alive 2026-02-13 15:11:18.362391
+1770991884.0007 0 drive robobot/cmd/ti rc 0.0 0.0
+1770991884.0010 0 drive robobot/cmd/T0 servo 1 0 0
+1770991884.3918 0 drive robobot/cmd/ti alive 2026-02-13 15:11:18.362391
+1770991884.6026 0 drive robobot/cmd/ti rc 0.0 0.0
+1770991884.6028 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770991884.7030 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770991884.7032 0 drive robobot/cmd/ti rc 0 0
+1770991884.7033 0 drive robobot/cmd/T0 servo 1 0 0
+1770991884.7393 0 'robobot/teensy_interface/alive' 1770991884.7393 2026-02-13 15:11:24.739
+1770991884.7736 0 drive robobot/cmd/ti rc 0 0
+1770991884.8169 0 drive robobot/cmd/T0 stop
+1770991884.8169 0 drive robobot/cmd/T0 leds 14 0 0 0
+1770991884.8169 0 drive robobot/cmd/T0 leds 15 0 0 0
+1770991884.8169 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770991918.6809 0 drive robobot/cmd/ti log 1
+1770991918.7580 0 drive robobot/cmd/T0 enc0
+1770991918.7581 0 drive robobot/cmd/T0 confw 0.074 0.074 19 92 0.23
+1770991918.7582 0 drive robobot/cmd/T0 confi
+1770991918.8742 0 'robobot/teensy_interface/alive' 1770991918.8741 2026-02-13 15:11:58.874
+1770991918.8886 0 drive robobot/cmd/T0 lip 1
+1770991918.8886 0 drive robobot/cmd/T0 sub livn 10
+1770991918.9089 0 drive robobot/cmd/T0 liwi
+1770991918.9291 0 drive robobot/cmd/T0 leds 16 30 30 0
+1770991918.9293 0 drive robobot/cmd/T0 leds 16 0 100 0
+1770991918.9293 0 drive robobot/cmd/ti rc 0.2 0.0
+1770991918.9296 0 drive robobot/cmd/T0 servo 1 -800 300
+1770991919.1385 0 drive robobot/cmd/ti alive 2026-02-13 15:11:58.613356
+1770991919.6396 0 drive robobot/cmd/ti alive 2026-02-13 15:11:58.613356
+1770991920.1406 0 drive robobot/cmd/ti alive 2026-02-13 15:11:58.613356
+1770991920.6416 0 drive robobot/cmd/ti alive 2026-02-13 15:11:58.613356
+1770991920.8828 0 'robobot/teensy_interface/alive' 1770991920.8827 2026-02-13 15:12:00.882
+1770991921.1427 0 drive robobot/cmd/ti alive 2026-02-13 15:11:58.613356
+1770991921.6436 0 drive robobot/cmd/ti alive 2026-02-13 15:11:58.613356
+1770991922.1446 0 drive robobot/cmd/ti alive 2026-02-13 15:11:58.613356
+1770991922.6457 0 drive robobot/cmd/ti alive 2026-02-13 15:11:58.613356
+1770991922.8906 0 'robobot/teensy_interface/alive' 1770991922.8906 2026-02-13 15:12:02.890
+1770991923.1466 0 drive robobot/cmd/ti alive 2026-02-13 15:11:58.613356
+1770991923.6477 0 drive robobot/cmd/ti alive 2026-02-13 15:11:58.613356
+1770991923.9910 0 drive robobot/cmd/ti rc 0.0 0.0
+1770991923.9911 0 drive robobot/cmd/T0 servo 1 0 0
+1770991924.1488 0 drive robobot/cmd/ti alive 2026-02-13 15:11:58.613356
+1770991924.5933 0 drive robobot/cmd/ti rc 0.0 0.0
+1770991924.5935 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770991924.6501 0 drive robobot/cmd/ti alive 2026-02-13 15:11:58.613356
+1770991924.6939 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770991924.6943 0 drive robobot/cmd/ti rc 0 0
+1770991924.6945 0 drive robobot/cmd/T0 servo 1 0 0
+1770991924.7649 0 drive robobot/cmd/ti rc 0 0
+1770991924.7851 0 drive robobot/cmd/T0 stop
+1770991924.7853 0 drive robobot/cmd/T0 leds 14 0 0 0
+1770991924.7956 0 drive robobot/cmd/T0 leds 15 0 0 0
+1770991924.7958 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770991973.4129 0 drive robobot/cmd/ti log 1
+1770991973.7612 0 drive robobot/cmd/T0 enc0
+1770991973.7614 0 drive robobot/cmd/T0 confw 0.074 0.074 19 92 0.23
+1770991973.7615 0 drive robobot/cmd/T0 confi
+1770991973.8715 0 drive robobot/cmd/ti alive 2026-02-13 15:12:53.353217
+1770991973.9153 0 drive robobot/cmd/T0 lip 1
+1770991973.9154 0 drive robobot/cmd/T0 sub livn 10
+1770991973.9356 0 drive robobot/cmd/T0 liwi
+1770991973.9558 0 drive robobot/cmd/T0 leds 16 30 30 0
+1770991973.9561 0 drive robobot/cmd/T0 leds 16 0 100 0
+1770991973.9562 0 drive robobot/cmd/ti rc 0.2 0.0
+1770991973.9564 0 drive robobot/cmd/T0 servo 1 -800 300
+1770991974.3730 0 drive robobot/cmd/ti alive 2026-02-13 15:12:53.353217
+1770991974.8740 0 drive robobot/cmd/ti alive 2026-02-13 15:12:53.353217
+1770991975.1013 0 'robobot/teensy_interface/alive' 1770991975.1012 2026-02-13 15:12:55.101
+1770991975.3750 0 drive robobot/cmd/ti alive 2026-02-13 15:12:53.353217
+1770991975.8760 0 drive robobot/cmd/ti alive 2026-02-13 15:12:53.353217
+1770991976.3769 0 drive robobot/cmd/ti alive 2026-02-13 15:12:53.353217
+1770991976.8780 0 drive robobot/cmd/ti alive 2026-02-13 15:12:53.353217
+1770991977.1096 0 'robobot/teensy_interface/alive' 1770991977.1096 2026-02-13 15:12:57.109
+1770991977.3792 0 drive robobot/cmd/ti alive 2026-02-13 15:12:53.353217
+1770991977.8802 0 drive robobot/cmd/ti alive 2026-02-13 15:12:53.353217
+1770991978.3812 0 drive robobot/cmd/ti alive 2026-02-13 15:12:53.353217
+1770991978.8822 0 drive robobot/cmd/ti alive 2026-02-13 15:12:53.353217
+1770991979.0164 0 drive robobot/cmd/ti rc 0.0 0.0
+1770991979.0165 0 drive robobot/cmd/T0 servo 1 0 0
+1770991979.1177 0 'robobot/teensy_interface/alive' 1770991979.1177 2026-02-13 15:12:59.117
+1770991979.3834 0 drive robobot/cmd/ti alive 2026-02-13 15:12:53.353217
+1770991979.6179 0 drive robobot/cmd/ti rc 0.0 0.0
+1770991979.6180 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770991979.7184 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770991979.7187 0 drive robobot/cmd/ti rc 0 0
+1770991979.7188 0 drive robobot/cmd/T0 servo 1 0 0
+1770991979.7892 0 drive robobot/cmd/ti rc 0 0
+1770991979.8094 0 drive robobot/cmd/T0 stop
+1770991979.8096 0 drive robobot/cmd/T0 leds 14 0 0 0
+1770991979.8197 0 drive robobot/cmd/T0 leds 15 0 0 0
+1770991979.8199 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770992060.9009 0 drive robobot/cmd/ti log 1
+1770992061.2506 0 drive robobot/cmd/T0 enc0
+1770992061.2506 0 drive robobot/cmd/T0 confw 0.074 0.074 19 92 0.23
+1770992061.2508 0 drive robobot/cmd/T0 confi
+1770992061.3605 0 drive robobot/cmd/ti alive 2026-02-13 15:14:20.842540
+1770992061.3774 0 drive robobot/cmd/T0 lip 1
+1770992061.3775 0 drive robobot/cmd/T0 sub livn 10
+1770992061.3977 0 drive robobot/cmd/T0 liwi
+1770992061.4179 0 drive robobot/cmd/T0 leds 16 30 30 0
+1770992061.4181 0 drive robobot/cmd/T0 leds 16 0 100 0
+1770992061.4183 0 drive robobot/cmd/ti rc 0.2 0.0
+1770992061.4183 0 drive robobot/cmd/T0 servo 1 -800 300
+1770992061.4428 0 'robobot/teensy_interface/alive' 1770992061.4427 2026-02-13 15:14:21.442
+1770992061.8615 0 drive robobot/cmd/ti alive 2026-02-13 15:14:20.842540
+1770992062.3626 0 drive robobot/cmd/ti alive 2026-02-13 15:14:20.842540
+1770992062.8634 0 drive robobot/cmd/ti alive 2026-02-13 15:14:20.842540
+1770992063.3645 0 drive robobot/cmd/ti alive 2026-02-13 15:14:20.842540
+1770992063.4512 0 'robobot/teensy_interface/alive' 1770992063.4512 2026-02-13 15:14:23.451
+1770992063.8654 0 drive robobot/cmd/ti alive 2026-02-13 15:14:20.842540
+1770992064.3665 0 drive robobot/cmd/ti alive 2026-02-13 15:14:20.842540
+1770992064.8675 0 drive robobot/cmd/ti alive 2026-02-13 15:14:20.842540
+1770992065.3686 0 drive robobot/cmd/ti alive 2026-02-13 15:14:20.842540
+1770992065.4596 0 'robobot/teensy_interface/alive' 1770992065.4596 2026-02-13 15:14:25.459
+1770992065.8697 0 drive robobot/cmd/ti alive 2026-02-13 15:14:20.842540
+1770992066.3709 0 drive robobot/cmd/ti alive 2026-02-13 15:14:20.842540
+1770992066.4778 0 drive robobot/cmd/ti rc 0.0 0.0
+1770992066.4779 0 drive robobot/cmd/T0 servo 1 0 0
+1770992066.8720 0 drive robobot/cmd/ti alive 2026-02-13 15:14:20.842540
+1770992067.3297 0 drive robobot/cmd/ti rc 0.0 0.0
+1770992067.3299 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770992067.3731 0 drive robobot/cmd/ti alive 2026-02-13 15:14:20.842540
+1770992067.4302 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770992067.4307 0 drive robobot/cmd/ti rc 0 0
+1770992067.4309 0 drive robobot/cmd/T0 servo 1 0 0
+1770992067.4686 0 'robobot/teensy_interface/alive' 1770992067.4685 2026-02-13 15:14:27.468
+1770992067.5011 0 drive robobot/cmd/ti rc 0 0
+1770992067.5449 0 drive robobot/cmd/T0 stop
+1770992067.5449 0 drive robobot/cmd/T0 leds 14 0 0 0
+1770992067.5449 0 drive robobot/cmd/T0 leds 15 0 0 0
+1770992067.5450 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770992072.8489 0 drive robobot/cmd/ti log 1
+1770992073.2591 0 drive robobot/cmd/T0 enc0
+1770992073.2594 0 drive robobot/cmd/T0 confw 0.074 0.074 19 92 0.23
+1770992073.2595 0 drive robobot/cmd/T0 confi
+1770992073.3085 0 drive robobot/cmd/ti alive 2026-02-13 15:14:32.791569
+1770992073.3848 0 drive robobot/cmd/T0 lip 1
+1770992073.3850 0 drive robobot/cmd/T0 sub livn 10
+1770992073.4052 0 drive robobot/cmd/T0 liwi
+1770992073.4255 0 drive robobot/cmd/T0 leds 16 30 30 0
+1770992073.4256 0 drive robobot/cmd/T0 leds 16 0 100 0
+1770992073.4257 0 drive robobot/cmd/ti rc 0.2 0.0
+1770992073.4259 0 drive robobot/cmd/T0 servo 1 -800 300
+1770992073.4924 0 'robobot/teensy_interface/alive' 1770992073.4923 2026-02-13 15:14:33.492
+1770992073.8096 0 drive robobot/cmd/ti alive 2026-02-13 15:14:32.791569
+1770992074.3107 0 drive robobot/cmd/ti alive 2026-02-13 15:14:32.791569
+1770992074.8118 0 drive robobot/cmd/ti alive 2026-02-13 15:14:32.791569
+1770992075.3129 0 drive robobot/cmd/ti alive 2026-02-13 15:14:32.791569
+1770992075.5011 0 'robobot/teensy_interface/alive' 1770992075.5011 2026-02-13 15:14:35.501
+1770992075.8142 0 drive robobot/cmd/ti alive 2026-02-13 15:14:32.791569
+1770992076.3157 0 drive robobot/cmd/ti alive 2026-02-13 15:14:32.791569
+1770992076.8168 0 drive robobot/cmd/ti alive 2026-02-13 15:14:32.791569
+1770992077.3180 0 drive robobot/cmd/ti alive 2026-02-13 15:14:32.791569
+1770992077.5092 0 'robobot/teensy_interface/alive' 1770992077.5091 2026-02-13 15:14:37.509
+1770992077.8192 0 drive robobot/cmd/ti alive 2026-02-13 15:14:32.791569
+1770992078.3201 0 drive robobot/cmd/ti alive 2026-02-13 15:14:32.791569
+1770992078.8214 0 drive robobot/cmd/ti alive 2026-02-13 15:14:32.791569
+1770992079.1895 0 drive robobot/cmd/ti rc 0.0 0.0
+1770992079.1895 0 drive robobot/cmd/T0 servo 1 0 0
+1770992079.3225 0 drive robobot/cmd/ti alive 2026-02-13 15:14:32.791569
+1770992079.5171 0 'robobot/teensy_interface/alive' 1770992079.5170 2026-02-13 15:14:39.517
+1770992079.7913 0 drive robobot/cmd/ti rc 0.0 0.0
+1770992079.7915 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770992079.8237 0 drive robobot/cmd/ti alive 2026-02-13 15:14:32.791569
+1770992079.8921 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770992079.8924 0 drive robobot/cmd/ti rc 0 0
+1770992079.8925 0 drive robobot/cmd/T0 servo 1 0 0
+1770992079.9629 0 drive robobot/cmd/ti rc 0 0
+1770992079.9832 0 drive robobot/cmd/T0 stop
+1770992079.9834 0 drive robobot/cmd/T0 leds 14 0 0 0
+1770992079.9938 0 drive robobot/cmd/T0 leds 15 0 0 0
+1770992079.9939 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770992106.9329 0 drive robobot/cmd/ti log 1
+1770992107.2508 0 drive robobot/cmd/T0 enc0
+1770992107.2509 0 drive robobot/cmd/T0 confw 0.074 0.074 19 92 0.23
+1770992107.2510 0 drive robobot/cmd/T0 confi
+1770992107.3812 0 drive robobot/cmd/T0 lip 1
+1770992107.3813 0 drive robobot/cmd/T0 sub livn 10
+1770992107.3907 0 drive robobot/cmd/ti alive 2026-02-13 15:15:06.873258
+1770992107.4015 0 drive robobot/cmd/T0 liwi
+1770992107.4216 0 drive robobot/cmd/T0 leds 16 30 30 0
+1770992107.4218 0 drive robobot/cmd/T0 leds 16 0 100 0
+1770992107.4219 0 drive robobot/cmd/ti rc 0.2 0.5
+1770992107.6283 0 'robobot/teensy_interface/alive' 1770992107.6282 2026-02-13 15:15:07.628
+1770992107.8917 0 drive robobot/cmd/ti alive 2026-02-13 15:15:06.873258
+1770992108.3927 0 drive robobot/cmd/ti alive 2026-02-13 15:15:06.873258
+1770992108.8938 0 drive robobot/cmd/ti alive 2026-02-13 15:15:06.873258
+1770992109.3948 0 drive robobot/cmd/ti alive 2026-02-13 15:15:06.873258
+1770992109.6365 0 'robobot/teensy_interface/alive' 1770992109.6365 2026-02-13 15:15:09.636
+1770992109.8958 0 drive robobot/cmd/ti alive 2026-02-13 15:15:06.873258
+1770992110.3969 0 drive robobot/cmd/ti alive 2026-02-13 15:15:06.873258
+1770992110.8979 0 drive robobot/cmd/ti alive 2026-02-13 15:15:06.873258
+1770992111.3991 0 drive robobot/cmd/ti alive 2026-02-13 15:15:06.873258
+1770992111.6449 0 'robobot/teensy_interface/alive' 1770992111.6448 2026-02-13 15:15:11.644
+1770992111.9003 0 drive robobot/cmd/ti alive 2026-02-13 15:15:06.873258
+1770992112.4016 0 drive robobot/cmd/ti alive 2026-02-13 15:15:06.873258
+1770992112.9026 0 drive robobot/cmd/ti alive 2026-02-13 15:15:06.873258
+1770992113.4038 0 drive robobot/cmd/ti alive 2026-02-13 15:15:06.873258
+1770992113.6536 0 'robobot/teensy_interface/alive' 1770992113.6535 2026-02-13 15:15:13.653
+1770992113.9052 0 drive robobot/cmd/ti alive 2026-02-13 15:15:06.873258
+1770992114.0864 0 drive robobot/cmd/ti rc 0.0 0.0
+1770992114.4063 0 drive robobot/cmd/ti alive 2026-02-13 15:15:06.873258
+1770992114.8890 0 drive robobot/cmd/ti rc 0.0 0.0
+1770992114.8891 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770992114.9074 0 drive robobot/cmd/ti alive 2026-02-13 15:15:06.873258
+1770992114.9894 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770992114.9898 0 drive robobot/cmd/ti rc 0 0
+1770992114.9900 0 drive robobot/cmd/T0 servo 1 0 0
+1770992115.0605 0 drive robobot/cmd/ti rc 0 0
+1770992115.0808 0 drive robobot/cmd/T0 stop
+1770992115.0811 0 drive robobot/cmd/T0 leds 14 0 0 0
+1770992115.0914 0 drive robobot/cmd/T0 leds 15 0 0 0
+1770992115.0915 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770992620.3289 0 drive robobot/cmd/ti log 1
+1770992620.7691 0 drive robobot/cmd/T0 enc0
+1770992620.7693 0 drive robobot/cmd/T0 confw 0.074 0.074 19 92 0.23
+1770992620.7694 0 drive robobot/cmd/T0 confi
+1770992620.7885 0 drive robobot/cmd/ti alive 2026-02-13 15:23:40.270809
+1770992620.9046 0 drive robobot/cmd/T0 lip 1
+1770992620.9048 0 drive robobot/cmd/T0 sub livn 10
+1770992620.9251 0 drive robobot/cmd/T0 liwi
+1770992620.9455 0 drive robobot/cmd/T0 leds 16 30 30 0
+1770992620.9457 0 drive robobot/cmd/T0 leds 16 0 0 30
+1770992620.9459 0 drive robobot/cmd/ti rc 0.25 0.0
+1770992620.9460 0 drive robobot/cmd/T0 servo 1 100 300
+1770992621.2896 0 drive robobot/cmd/ti alive 2026-02-13 15:23:40.270809
+1770992621.6698 0 'robobot/teensy_interface/alive' 1770992621.6697 2026-02-13 15:23:41.669
+1770992621.7908 0 drive robobot/cmd/ti alive 2026-02-13 15:23:40.270809
+1770992622.2920 0 drive robobot/cmd/ti alive 2026-02-13 15:23:40.270809
+1770992622.7931 0 drive robobot/cmd/ti alive 2026-02-13 15:23:40.270809
+1770992623.0478 0 drive robobot/cmd/ti rc 0.1 0.5
+1770992623.0480 0 drive robobot/cmd/T0 servo 1 -800 1000
+1770992623.2944 0 drive robobot/cmd/ti alive 2026-02-13 15:23:40.270809
+1770992623.6783 0 'robobot/teensy_interface/alive' 1770992623.6782 2026-02-13 15:23:43.678
+1770992623.7955 0 drive robobot/cmd/ti alive 2026-02-13 15:23:40.270809
+1770992624.2967 0 drive robobot/cmd/ti alive 2026-02-13 15:23:40.270809
+1770992624.7979 0 drive robobot/cmd/ti alive 2026-02-13 15:23:40.270809
+1770992625.2998 0 drive robobot/cmd/ti alive 2026-02-13 15:23:40.270809
+1770992625.6868 0 'robobot/teensy_interface/alive' 1770992625.6868 2026-02-13 15:23:45.686
+1770992625.8009 0 drive robobot/cmd/ti alive 2026-02-13 15:23:40.270809
+1770992626.2510 0 drive robobot/cmd/ti rc 0 0
+1770992626.2512 0 drive robobot/cmd/T0 servo 1 0 1000
+1770992626.3024 0 drive robobot/cmd/ti alive 2026-02-13 15:23:40.270809
+1770992626.3519 0 drive robobot/cmd/T0 leds 16 0 64 0
+1770992626.4523 0 drive robobot/cmd/T0 leds 16 0 30 30
+1770992626.5528 0 drive robobot/cmd/T0 leds 16 0 64 0
+1770992626.6533 0 drive robobot/cmd/T0 leds 16 0 30 30
+1770992626.7540 0 drive robobot/cmd/T0 leds 16 0 64 0
+1770992626.8038 0 drive robobot/cmd/ti alive 2026-02-13 15:23:40.270809
+1770992626.8544 0 drive robobot/cmd/T0 leds 16 0 30 30
+1770992626.9548 0 drive robobot/cmd/T0 leds 16 0 64 0
+1770992627.0552 0 drive robobot/cmd/T0 leds 16 0 30 30
+1770992627.1556 0 drive robobot/cmd/T0 leds 16 0 64 0
+1770992627.2562 0 drive robobot/cmd/T0 leds 16 0 30 30
+1770992627.3051 0 drive robobot/cmd/ti alive 2026-02-13 15:23:40.270809
+1770992627.3566 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770992627.3571 0 drive robobot/cmd/ti rc 0 0
+1770992627.3572 0 drive robobot/cmd/T0 servo 1 0 0
+1770992627.4278 0 drive robobot/cmd/ti rc 0 0
+1770992627.4481 0 drive robobot/cmd/T0 stop
+1770992627.4483 0 drive robobot/cmd/T0 leds 14 0 0 0
+1770992627.4585 0 drive robobot/cmd/T0 leds 15 0 0 0
+1770992627.4587 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770992987.4649 0 drive robobot/cmd/ti log 1
+1770992987.7525 0 drive robobot/cmd/T0 enc0
+1770992987.7526 0 drive robobot/cmd/T0 confw 0.074 0.074 19 92 0.23
+1770992987.7528 0 drive robobot/cmd/T0 confi
+1770992987.9058 0 drive robobot/cmd/T0 lip 1
+1770992987.9090 0 drive robobot/cmd/T0 sub livn 10
+1770992987.9222 0 drive robobot/cmd/ti alive 2026-02-13 15:29:47.401013
+1770992987.9293 0 drive robobot/cmd/T0 liwi
+1770992987.9495 0 drive robobot/cmd/T0 leds 16 30 30 0
+1770992987.9496 0 drive robobot/cmd/T0 leds 16 0 100 0
+1770992987.9498 0 drive robobot/cmd/ti rc 0.2 0.0
+1770992987.9501 0 drive robobot/cmd/T0 servo 1 -800 300
+1770992988.4232 0 drive robobot/cmd/ti alive 2026-02-13 15:29:47.401013
+1770992988.9242 0 drive robobot/cmd/ti alive 2026-02-13 15:29:47.401013
+1770992989.1319 0 'robobot/teensy_interface/alive' 1770992989.1319 2026-02-13 15:29:49.131
+1770992989.4252 0 drive robobot/cmd/ti alive 2026-02-13 15:29:47.401013
+1770992989.9261 0 drive robobot/cmd/ti alive 2026-02-13 15:29:47.401013
+1770992990.4272 0 drive robobot/cmd/ti alive 2026-02-13 15:29:47.401013
+1770992990.9281 0 drive robobot/cmd/ti alive 2026-02-13 15:29:47.401013
+1770992991.1400 0 'robobot/teensy_interface/alive' 1770992991.1400 2026-02-13 15:29:51.140
+1770992991.4291 0 drive robobot/cmd/ti alive 2026-02-13 15:29:47.401013
+1770992991.9302 0 drive robobot/cmd/ti alive 2026-02-13 15:29:47.401013
+1770992992.4313 0 drive robobot/cmd/ti alive 2026-02-13 15:29:47.401013
+1770992992.9325 0 drive robobot/cmd/ti alive 2026-02-13 15:29:47.401013
+1770992993.0125 0 drive robobot/cmd/ti rc 0.0 0.0
+1770992993.0127 0 drive robobot/cmd/T0 servo 1 0 0
+1770992993.1481 0 'robobot/teensy_interface/alive' 1770992993.1481 2026-02-13 15:29:53.148
+1770992993.4336 0 drive robobot/cmd/ti alive 2026-02-13 15:29:47.401013
+1770992993.6140 0 drive robobot/cmd/ti rc 0.0 0.0
+1770992993.6142 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770992993.7144 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770992993.7147 0 drive robobot/cmd/ti rc 0 0
+1770992993.7148 0 drive robobot/cmd/T0 servo 1 0 0
+1770992993.7851 0 drive robobot/cmd/ti rc 0 0
+1770992993.8053 0 drive robobot/cmd/T0 stop
+1770992993.8054 0 drive robobot/cmd/T0 leds 14 0 0 0
+1770992993.8157 0 drive robobot/cmd/T0 leds 15 0 0 0
+1770992993.8158 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770995323.8169 0 drive robobot/cmd/ti log 1
+1770995324.2754 0 drive robobot/cmd/ti alive 2026-02-13 16:08:43.754552
+1770995324.2858 0 drive robobot/cmd/T0 enc0
+1770995324.2859 0 drive robobot/cmd/T0 confw 0.074 0.074 19 92 0.23
+1770995324.2860 0 drive robobot/cmd/T0 confi
+1770995324.4125 0 drive robobot/cmd/T0 lip 1
+1770995324.4126 0 drive robobot/cmd/T0 sub livn 10
+1770995324.4328 0 drive robobot/cmd/T0 liwi
+1770995324.4492 0 'robobot/teensy_interface/alive' 1770995324.4492 2026-02-13 16:08:44.449
+1770995324.4530 0 drive robobot/cmd/T0 leds 16 30 30 0
+1770995324.4968 0 drive robobot/cmd/T0 leds 16 0 0 30
+1770995324.4969 0 drive robobot/cmd/ti rc 0.25 0.0
+1770995324.4969 0 drive robobot/cmd/T0 servo 1 100 300
+1770995324.7764 0 drive robobot/cmd/ti alive 2026-02-13 16:08:43.754552
+1770995325.2775 0 drive robobot/cmd/ti alive 2026-02-13 16:08:43.754552
+1770995325.7786 0 drive robobot/cmd/ti alive 2026-02-13 16:08:43.754552
+1770995326.2796 0 drive robobot/cmd/ti alive 2026-02-13 16:08:43.754552
+1770995326.4571 0 'robobot/teensy_interface/alive' 1770995326.4571 2026-02-13 16:08:46.457
+1770995326.6551 0 drive robobot/cmd/ti rc 0.1 0.5
+1770995326.6552 0 drive robobot/cmd/T0 servo 1 -800 1000
+1770995326.7806 0 drive robobot/cmd/ti alive 2026-02-13 16:08:43.754552
+1770995327.2815 0 drive robobot/cmd/ti alive 2026-02-13 16:08:43.754552
+1770995327.7824 0 drive robobot/cmd/ti alive 2026-02-13 16:08:43.754552
+1770995328.2834 0 drive robobot/cmd/ti alive 2026-02-13 16:08:43.754552
+1770995328.4652 0 'robobot/teensy_interface/alive' 1770995328.4651 2026-02-13 16:08:48.465
+1770995328.7844 0 drive robobot/cmd/ti alive 2026-02-13 16:08:43.754552
+1770995329.2855 0 drive robobot/cmd/ti alive 2026-02-13 16:08:43.754552
+1770995329.7865 0 drive robobot/cmd/ti alive 2026-02-13 16:08:43.754552
+1770995329.8584 0 drive robobot/cmd/ti rc 0 0
+1770995329.8586 0 drive robobot/cmd/T0 servo 1 0 1000
+1770995329.9589 0 drive robobot/cmd/T0 leds 16 0 64 0
+1770995330.0594 0 drive robobot/cmd/T0 leds 16 0 30 30
+1770995330.1597 0 drive robobot/cmd/T0 leds 16 0 64 0
+1770995330.2601 0 drive robobot/cmd/T0 leds 16 0 30 30
+1770995330.2877 0 drive robobot/cmd/ti alive 2026-02-13 16:08:43.754552
+1770995330.3603 0 drive robobot/cmd/T0 leds 16 0 64 0
+1770995330.4606 0 drive robobot/cmd/T0 leds 16 0 30 30
+1770995330.4735 0 'robobot/teensy_interface/alive' 1770995330.4735 2026-02-13 16:08:50.473
+1770995330.5610 0 drive robobot/cmd/T0 leds 16 0 64 0
+1770995330.6612 0 drive robobot/cmd/T0 leds 16 0 30 30
+1770995330.7616 0 drive robobot/cmd/T0 leds 16 0 64 0
+1770995330.7889 0 drive robobot/cmd/ti alive 2026-02-13 16:08:43.754552
+1770995330.8619 0 drive robobot/cmd/T0 leds 16 0 30 30
+1770995330.9623 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770995330.9626 0 drive robobot/cmd/ti rc 0 0
+1770995330.9630 0 drive robobot/cmd/T0 servo 1 0 0
+1770995331.0335 0 drive robobot/cmd/ti rc 0 0
+1770995331.0538 0 drive robobot/cmd/T0 stop
+1770995331.0541 0 drive robobot/cmd/T0 leds 14 0 0 0
+1770995331.0644 0 drive robobot/cmd/T0 leds 15 0 0 0
+1770995331.0645 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770995672.6329 0 drive robobot/cmd/ti log 1
+1770995672.7721 0 drive robobot/cmd/T0 enc0
+1770995672.7722 0 drive robobot/cmd/T0 confw 0.074 0.074 19 92 0.23
+1770995672.7723 0 drive robobot/cmd/T0 confi
+1770995672.9028 0 drive robobot/cmd/T0 lip 1
+1770995672.9030 0 drive robobot/cmd/T0 sub livn 10
+1770995672.9231 0 drive robobot/cmd/T0 liwi
+1770995672.9433 0 drive robobot/cmd/T0 leds 16 30 30 0
+1770995672.9434 0 drive robobot/cmd/T0 leds 16 0 0 30
+1770995672.9435 0 drive robobot/cmd/ti rc 0.25 0.0
+1770995672.9436 0 drive robobot/cmd/T0 servo 1 100 300
+1770995673.0924 0 drive robobot/cmd/ti alive 2026-02-13 16:14:32.571142
+1770995673.5934 0 drive robobot/cmd/ti alive 2026-02-13 16:14:32.571142
+1770995673.8427 0 'robobot/teensy_interface/alive' 1770995673.8427 2026-02-13 16:14:33.842
+1770995674.0944 0 drive robobot/cmd/ti alive 2026-02-13 16:14:32.571142
+1770995674.5953 0 drive robobot/cmd/ti alive 2026-02-13 16:14:32.571142
+1770995675.0452 0 drive robobot/cmd/ti rc 0.1 0.5
+1770995675.0453 0 drive robobot/cmd/T0 servo 1 -800 1000
+1770995675.0962 0 drive robobot/cmd/ti alive 2026-02-13 16:14:32.571142
+1770995675.5972 0 drive robobot/cmd/ti alive 2026-02-13 16:14:32.571142
+1770995675.8506 0 'robobot/teensy_interface/alive' 1770995675.8505 2026-02-13 16:14:35.850
+1770995676.0980 0 drive robobot/cmd/ti alive 2026-02-13 16:14:32.571142
+1770995676.5990 0 drive robobot/cmd/ti alive 2026-02-13 16:14:32.571142
+1770995677.1000 0 drive robobot/cmd/ti alive 2026-02-13 16:14:32.571142
+1770995677.6012 0 drive robobot/cmd/ti alive 2026-02-13 16:14:32.571142
+1770995677.8586 0 'robobot/teensy_interface/alive' 1770995677.8586 2026-02-13 16:14:37.858
+1770995678.1025 0 drive robobot/cmd/ti alive 2026-02-13 16:14:32.571142
+1770995678.3479 0 drive robobot/cmd/ti rc 0 0
+1770995678.3480 0 drive robobot/cmd/T0 servo 1 0 1000
+1770995678.4489 0 drive robobot/cmd/T0 leds 16 0 64 0
+1770995678.5491 0 drive robobot/cmd/T0 leds 16 0 30 30
+1770995678.6037 0 drive robobot/cmd/ti alive 2026-02-13 16:14:32.571142
+1770995678.6495 0 drive robobot/cmd/T0 leds 16 0 64 0
+1770995678.7500 0 drive robobot/cmd/T0 leds 16 0 30 30
+1770995678.8503 0 drive robobot/cmd/T0 leds 16 0 64 0
+1770995678.9506 0 drive robobot/cmd/T0 leds 16 0 30 30
+1770995679.0509 0 drive robobot/cmd/T0 leds 16 0 64 0
+1770995679.1047 0 drive robobot/cmd/ti alive 2026-02-13 16:14:32.571142
+1770995679.1512 0 drive robobot/cmd/T0 leds 16 0 30 30
+1770995679.2515 0 drive robobot/cmd/T0 leds 16 0 64 0
+1770995679.3519 0 drive robobot/cmd/T0 leds 16 0 30 30
+1770995679.4525 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770995679.4527 0 drive robobot/cmd/ti rc 0 0
+1770995679.4529 0 drive robobot/cmd/T0 servo 1 0 0
+1770995679.5232 0 drive robobot/cmd/ti rc 0 0
+1770995679.5435 0 drive robobot/cmd/T0 stop
+1770995679.5436 0 drive robobot/cmd/T0 leds 14 0 0 0
+1770995679.5538 0 drive robobot/cmd/T0 leds 15 0 0 0
+1770995679.5538 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770995720.6129 0 drive robobot/cmd/ti log 1
+1770995720.7827 0 drive robobot/cmd/T0 enc0
+1770995720.7828 0 drive robobot/cmd/T0 confw 0.074 0.074 19 92 0.23
+1770995720.7829 0 drive robobot/cmd/T0 confi
+1770995720.9101 0 drive robobot/cmd/T0 lip 1
+1770995720.9102 0 drive robobot/cmd/T0 sub livn 10
+1770995720.9305 0 drive robobot/cmd/T0 liwi
+1770995720.9509 0 drive robobot/cmd/T0 leds 16 30 30 0
+1770995720.9510 0 drive robobot/cmd/T0 leds 16 0 0 30
+1770995720.9511 0 drive robobot/cmd/ti rc 0.25 0.0
+1770995720.9512 0 drive robobot/cmd/T0 servo 1 100 300
+1770995721.0724 0 drive robobot/cmd/ti alive 2026-02-13 16:15:20.551525
+1770995721.5734 0 drive robobot/cmd/ti alive 2026-02-13 16:15:20.551525
+1770995722.0342 0 'robobot/teensy_interface/alive' 1770995722.0342 2026-02-13 16:15:22.034
+1770995722.0745 0 drive robobot/cmd/ti alive 2026-02-13 16:15:20.551525
+1770995722.5753 0 drive robobot/cmd/ti alive 2026-02-13 16:15:20.551525
+1770995723.0530 0 drive robobot/cmd/ti rc 0.1 0.5
+1770995723.0531 0 drive robobot/cmd/T0 servo 1 -800 1000
+1770995723.0763 0 drive robobot/cmd/ti alive 2026-02-13 16:15:20.551525
+1770995723.5773 0 drive robobot/cmd/ti alive 2026-02-13 16:15:20.551525
+1770995724.0423 0 'robobot/teensy_interface/alive' 1770995724.0422 2026-02-13 16:15:24.042
+1770995724.0784 0 drive robobot/cmd/ti alive 2026-02-13 16:15:20.551525
+1770995724.5793 0 drive robobot/cmd/ti alive 2026-02-13 16:15:20.551525
+1770995725.0804 0 drive robobot/cmd/ti alive 2026-02-13 16:15:20.551525
+1770995725.5815 0 drive robobot/cmd/ti alive 2026-02-13 16:15:20.551525
+1770995726.0508 0 'robobot/teensy_interface/alive' 1770995726.0507 2026-02-13 16:15:26.050
+1770995726.0826 0 drive robobot/cmd/ti alive 2026-02-13 16:15:20.551525
+1770995726.2556 0 drive robobot/cmd/ti rc 0 0
+1770995726.2557 0 drive robobot/cmd/T0 servo 1 0 1000
+1770995726.3559 0 drive robobot/cmd/T0 leds 16 0 64 0
+1770995726.4564 0 drive robobot/cmd/T0 leds 16 0 30 30
+1770995726.5568 0 drive robobot/cmd/T0 leds 16 0 64 0
+1770995726.5838 0 drive robobot/cmd/ti alive 2026-02-13 16:15:20.551525
+1770995726.6571 0 drive robobot/cmd/T0 leds 16 0 30 30
+1770995726.7574 0 drive robobot/cmd/T0 leds 16 0 64 0
+1770995726.8576 0 drive robobot/cmd/T0 leds 16 0 30 30
+1770995726.9579 0 drive robobot/cmd/T0 leds 16 0 64 0
+1770995727.0582 0 drive robobot/cmd/T0 leds 16 0 30 30
+1770995727.0850 0 drive robobot/cmd/ti alive 2026-02-13 16:15:20.551525
+1770995727.1585 0 drive robobot/cmd/T0 leds 16 0 64 0
+1770995727.2590 0 drive robobot/cmd/T0 leds 16 0 30 30
+1770995727.3595 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770995727.3598 0 drive robobot/cmd/ti rc 0 0
+1770995727.3599 0 drive robobot/cmd/T0 servo 1 0 0
+1770995727.4304 0 drive robobot/cmd/ti rc 0 0
+1770995727.4506 0 drive robobot/cmd/T0 stop
+1770995727.4507 0 drive robobot/cmd/T0 leds 14 0 0 0
+1770995727.4610 0 drive robobot/cmd/T0 leds 15 0 0 0
+1770995727.4612 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770995899.1689 0 drive robobot/cmd/ti log 1
+1770995899.2772 0 drive robobot/cmd/T0 enc0
+1770995899.2773 0 drive robobot/cmd/T0 confw 0.074 0.074 19 92 0.23
+1770995899.2775 0 drive robobot/cmd/T0 confi
+1770995899.4113 0 drive robobot/cmd/T0 lip 1
+1770995899.4115 0 drive robobot/cmd/T0 sub livn 10
+1770995899.4318 0 drive robobot/cmd/T0 liwi
+1770995899.4520 0 drive robobot/cmd/T0 leds 16 30 30 0
+1770995899.4521 0 drive robobot/cmd/T0 leds 16 0 100 0
+1770995899.4523 0 drive robobot/cmd/ti rc 0.2 0.0
+1770995899.4523 0 drive robobot/cmd/T0 servo 1 -800 300
+1770995899.6271 0 drive robobot/cmd/ti alive 2026-02-13 16:18:19.105594
+1770995900.1280 0 drive robobot/cmd/ti alive 2026-02-13 16:18:19.105594
+1770995900.6289 0 drive robobot/cmd/ti alive 2026-02-13 16:18:19.105594
+1770995900.7426 0 'robobot/teensy_interface/alive' 1770995900.7426 2026-02-13 16:18:20.742
+1770995901.1299 0 drive robobot/cmd/ti alive 2026-02-13 16:18:19.105594
+1770995901.6308 0 drive robobot/cmd/ti alive 2026-02-13 16:18:19.105594
+1770995902.1317 0 drive robobot/cmd/ti alive 2026-02-13 16:18:19.105594
+1770995902.6328 0 drive robobot/cmd/ti alive 2026-02-13 16:18:19.105594
+1770995902.7505 0 'robobot/teensy_interface/alive' 1770995902.7504 2026-02-13 16:18:22.750
+1770995903.1337 0 drive robobot/cmd/ti alive 2026-02-13 16:18:19.105594
+1770995903.6348 0 drive robobot/cmd/ti alive 2026-02-13 16:18:19.105594
+1770995904.1361 0 drive robobot/cmd/ti alive 2026-02-13 16:18:19.105594
+1770995904.5633 0 drive robobot/cmd/ti rc 0.0 0.0
+1770995904.5637 0 drive robobot/cmd/T0 servo 1 0 0
+1770995904.6371 0 drive robobot/cmd/ti alive 2026-02-13 16:18:19.105594
+1770995904.7589 0 'robobot/teensy_interface/alive' 1770995904.7588 2026-02-13 16:18:24.758
+1770995905.1382 0 drive robobot/cmd/ti alive 2026-02-13 16:18:19.105594
+1770995905.3157 0 drive robobot/cmd/ti rc 0.0 0.0
+1770995905.3160 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770995905.4163 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770995905.4166 0 drive robobot/cmd/ti rc 0 0
+1770995905.4167 0 drive robobot/cmd/T0 servo 1 0 0
+1770995905.4871 0 drive robobot/cmd/ti rc 0 0
+1770995905.5073 0 drive robobot/cmd/T0 stop
+1770995905.5074 0 drive robobot/cmd/T0 leds 14 0 0 0
+1770995905.5176 0 drive robobot/cmd/T0 leds 15 0 0 0
+1770995905.5177 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770995989.2729 0 drive robobot/cmd/ti log 1
+1770995989.3203 0 drive robobot/cmd/T0 enc0
+1770995989.3205 0 drive robobot/cmd/T0 confw 0.074 0.074 19 92 0.23
+1770995989.3205 0 drive robobot/cmd/T0 confi
+1770995989.4460 0 drive robobot/cmd/T0 lip 1
+1770995989.4461 0 drive robobot/cmd/T0 sub livn 10
+1770995989.4663 0 drive robobot/cmd/T0 liwi
+1770995989.4865 0 drive robobot/cmd/T0 leds 16 30 30 0
+1770995989.4867 0 drive robobot/cmd/T0 leds 16 0 100 0
+1770995989.4869 0 drive robobot/cmd/ti rc 0.2 0.0
+1770995989.4869 0 drive robobot/cmd/T0 servo 1 -800 300
+1770995989.7309 0 drive robobot/cmd/ti alive 2026-02-13 16:19:49.208907
+1770995990.2323 0 drive robobot/cmd/ti alive 2026-02-13 16:19:49.208907
+1770995990.7333 0 drive robobot/cmd/ti alive 2026-02-13 16:19:49.208907
+1770995991.1002 0 'robobot/teensy_interface/alive' 1770995991.1001 2026-02-13 16:19:51.100
+1770995991.2343 0 drive robobot/cmd/ti alive 2026-02-13 16:19:49.208907
+1770995991.7354 0 drive robobot/cmd/ti alive 2026-02-13 16:19:49.208907
+1770995992.2364 0 drive robobot/cmd/ti alive 2026-02-13 16:19:49.208907
+1770995992.7376 0 drive robobot/cmd/ti alive 2026-02-13 16:19:49.208907
+1770995993.1083 0 'robobot/teensy_interface/alive' 1770995993.1083 2026-02-13 16:19:53.108
+1770995993.2386 0 drive robobot/cmd/ti alive 2026-02-13 16:19:49.208907
+1770995993.7396 0 drive robobot/cmd/ti alive 2026-02-13 16:19:49.208907
+1770995994.2410 0 drive robobot/cmd/ti alive 2026-02-13 16:19:49.208907
+1770995994.5470 0 drive robobot/cmd/ti rc 0.0 0.0
+1770995994.5471 0 drive robobot/cmd/T0 servo 1 0 0
+1770995994.7422 0 drive robobot/cmd/ti alive 2026-02-13 16:19:49.208907
+1770995994.7979 0 drive robobot/cmd/ti rc 0.0 0.0
+1770995994.7983 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770995994.8987 0 drive robobot/cmd/T0 leds 16 0 0 0
+1770995994.8990 0 drive robobot/cmd/ti rc 0 0
+1770995994.8991 0 drive robobot/cmd/T0 servo 1 0 0
+1770995994.9695 0 drive robobot/cmd/ti rc 0 0
+1770995994.9897 0 drive robobot/cmd/T0 stop
+1770995994.9898 0 drive robobot/cmd/T0 leds 14 0 0 0
+1770995995.0000 0 drive robobot/cmd/T0 leds 15 0 0 0
+1770995995.0001 0 drive robobot/cmd/T0 leds 16 0 0 0
