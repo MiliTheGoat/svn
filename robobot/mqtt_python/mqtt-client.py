@@ -237,11 +237,14 @@ def loop():
         state = 2 # until no more line
         pose.tripBreset() # use trip counter/timer B
     elif state == 2: # forward until no more line
+      print(f"% STARTING state={state}")
+      pose.tripBreset()
       if pose.tripB >= 2.5 or pose.tripBtimePassed() > 5:
         edge.lineControl(0.2, True)
         pose.printPose()
       pose.tripBreset()
       edge.lineControl(0, True)
+      print(f"% FINISHED state={state}")
       state = 101
     elif state == 14: # turning left
       if pose.tripBh > np.pi/2 or pose.tripBtimePassed() > 10:
