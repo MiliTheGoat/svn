@@ -235,7 +235,6 @@ def loop():
         print("% Starting")
         service.send("robobot/cmd/T0","leds 16 0 0 30") # blue: running
         state = 2 # until no more line
-        pose.tripBreset() # use trip counter/timer B
     elif state == 2: # forward until no more line
       print(f"% STARTING state={state}")
       pose.tripBreset()
