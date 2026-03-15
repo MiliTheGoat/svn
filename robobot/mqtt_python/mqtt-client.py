@@ -241,7 +241,7 @@ def loop():
         edge.lineControl(0.2, True)
         pose.printPose()
         pose.tripBreset()
-        state = 14
+        state = 101
     elif state == 14: # turning left
       if pose.tripBh > np.pi/2 or pose.tripBtimePassed() > 10:
         service.send("robobot/cmd/ti","rc 0 0") # stop for images
