@@ -240,6 +240,7 @@ def loop():
       pose.tripBreset()
       if pose.tripB >= 2.5 or pose.tripBtimePassed() > 5:
         edge.lineControl(0.2, True)
+        edge.followLine()
         pose.printPose()
       pose.tripBreset()
       edge.lineControl(0, True)
