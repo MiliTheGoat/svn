@@ -144,7 +144,7 @@ def driveToLine():
       if pose.tripB > 1.0 or pose.tripBtimePassed() > 15:
         service.send("robobot/cmd/ti/","rc 0.0 0.0") # (forward m/s, turn-rate rad/sec)
         state = 2
-      if edge.lineValidCnt > 4:
+      if edge.lineValidCnt > 3:
         # start follow line
         edge.lineControl(0.2, True)
         service.send("robobot/cmd/T0","servo 1 0 0") # (move servo to position 0 - front)
@@ -234,10 +234,15 @@ def loop():
       if start:
         print("% Starting")
         service.send("robobot/cmd/T0","leds 16 0 0 30") # blue: running
-        service.send("robobot/cmd/ti","rc 0.25 0.0") # (forward m/s, turn-rate rad/sec)
-        service.send("robobot/cmd/T0","servo 1 100 300") # (servo down slow)
-        state = 12 # until no more line
+        state = 2 # until no more line
         pose.tripBreset() # use trip counter/timer B
+    elif state == 2: # forward until no more line
+      while not pose.tripBtimePassed() > 15 and not service.stop:
+        driveToLine()
+        if edge.lineValidCnt < 3:
+          break
+        state = 12
+      
     elif state == 12: # following line
       if pose.tripB > 0.5 or pose.tripBtimePassed() > 10:
         # start turning
@@ -248,15 +253,10 @@ def loop():
         state = 14 # turn left
     elif state == 14: # turning left
       if pose.tripBh > np.pi/2 or pose.tripBtimePassed() > 10:
-        state = 20 # finished
         service.send("robobot/cmd/ti","rc 0 0") # stop for images
         service.send("robobot/cmd/T0","servo 1 0 1000") # (servo forward faster)
       # print(f"% --- state {state}, h = {pose.tripBh:.4f}, t={pose.tripBtimePassed():.3f}")
-        state = 16
-    elif state == 16: # run 4 meeters forward
-      for _ in range(4):  
-        driveOneMeter()
-      state = 20
+        state = 20
     elif state == 20: # image analysis
       imageAnalysis(images == 2)
       images += 1
