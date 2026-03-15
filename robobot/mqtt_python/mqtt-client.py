@@ -237,7 +237,7 @@ def loop():
         state = 2 # until no more line
         pose.tripBreset() # use trip counter/timer B
     elif state == 2: # forward until no more line
-      while not pose.tripBtimePassed() > 15 and not service.stop:
+      while not pose.tripBtimePassed() > 10 and not service.stop:
         driveToLine()
         if edge.lineValidCnt < 3:
           break
