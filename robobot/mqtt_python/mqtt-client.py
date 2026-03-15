@@ -236,10 +236,10 @@ def loop():
         service.send("robobot/cmd/T0","leds 16 0 0 30") # blue: running
         state = 2 # until no more line
     elif state == 2: # forward until no more line
+      edge.lineControl(0.2, True)
       print(f"% STARTING state={state}")
       pose.tripBreset()
       if pose.tripB >= 2.5 or pose.tripBtimePassed() > 5:
-        edge.lineControl(0.2, True)
         edge.followLine()
         pose.printPose()
       pose.tripBreset()
