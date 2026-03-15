@@ -238,7 +238,7 @@ def loop():
         pose.tripBreset() # use trip counter/timer B
     elif state == 2: # forward until no more line
       if pose.tripB >= 2.5:
-        edge.followLine()
+        edge.lineControl(0, True)
         pose.printPose()
         pose.tripBreset()
         state = 14
