@@ -235,17 +235,15 @@ def loop():
         print("% Starting")
         service.send("robobot/cmd/T0","leds 16 0 0 30") # blue: running
         state = 2 # until no more line
+        pose.tripBreset() # use trip counter/timer B
     elif state == 2: # forward until no more line
-      edge.lineControl(0.2, True)
-      print(f"% STARTING state={state}")
-      pose.tripBreset()
-      if pose.tripB >= 2.5 or pose.tripBtimePassed() > 5:
-        edge.followLine()
+      edge.lineControl(0.2, True) # follow line with velocity 0.2 m/s
+      edge.followLine()
+      if pose.tripB >= 2.5 or pose.tripBtimePassed() > 10:
+        edge.lineControl(0, True) # stop following line
         pose.printPose()
-      pose.tripBreset()
-      edge.lineControl(0, True)
-      print(f"% FINISHED state={state}")
-      state = 101
+        pose.tripBreset()
+        state = 14
     elif state == 14: # turning left
       if pose.tripBh > np.pi/2 or pose.tripBtimePassed() > 10:
         service.send("robobot/cmd/ti","rc 0 0") # stop for images
