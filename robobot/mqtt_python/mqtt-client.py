@@ -238,19 +238,14 @@ def loop():
         pose.tripBreset() # use trip counter/timer B
     elif state == 2: # forward until no more line
       while not pose.tripBtimePassed() > 10 and not service.stop:
-        driveToLine()
-        if edge.lineValidCnt < 3:
+        print("STARTED FOLLOWING LINE")
+        edge.lineControl(0.2, True) # follow line with velocity 0.2 m/s
+        edge.followLine()
+        if pose.tripB > 2.5:
+          print(f"% State {state}, now {pose.tripB:.3f}m in {pose.tripBtimePassed():.3f} seconds; left {edge.posLeft}, right {edge.posRight}")
           break
-        state = 12
-      
-    elif state == 12: # following line
-      if pose.tripB > 0.5 or pose.tripBtimePassed() > 10:
-        # start turning
-        edge.lineControl(0, True) # stop following line
-        pose.tripBreset()
-        service.send("robobot/cmd/ti","rc 0.1 0.5") # turn left
-        service.send("robobot/cmd/T0","servo 1 -800 1000") # (servo up faster)
-        state = 14 # turn left
+        print("LOST OR CLOSED LINE LOOP")
+        state = 14
     elif state == 14: # turning left
       if pose.tripBh > np.pi/2 or pose.tripBtimePassed() > 10:
         service.send("robobot/cmd/ti","rc 0 0") # stop for images
